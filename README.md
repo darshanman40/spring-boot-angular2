@@ -1,4 +1,6 @@
-# Special thanks to Travis CI GmbH
+# Special thanks to Travis CI GmbH and Emmanouil Gkatziouras
+Please follow Travis's project on https://travis-ci.org/borysn/spring-boot-angular2
+Please follow Emmanouil on https://dzone.com/users/1016019/Emmanouil_Gkatziouras.html
 
 # purpose learning spring-boot, spring-data with Cassandara (using restful service) by creating a prototype.
 
