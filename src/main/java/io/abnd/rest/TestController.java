@@ -9,13 +9,13 @@ import com.google.gson.JsonObject;
 
 import io.abnd.service.intf.TestService;
 
-@RestController
+//@RestController
 public class TestController {
 
 	@Autowired
 	private TestService testService;
 
-	@RequestMapping(value="/test/get/json", method=RequestMethod.GET, produces="application/json")
+//	@RequestMapping(value="/test/get/json", method=RequestMethod.GET, produces="application/json")
 	public String testGetJson() {
 		JsonObject jsonObject = new JsonObject();
 		JsonObject message = new JsonObject();

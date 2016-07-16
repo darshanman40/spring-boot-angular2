@@ -4,7 +4,7 @@ buildscript {
 	}
 	dependencies {
 		// spring
-		classpath('org.springframework.boot:spring-boot-gradle-plugin:1.3.5.RELEASE')
+		classpath('org.springframework.boot:spring-boot-gradle-plugin:1.2.5.RELEASE')
 		classpath('org.springframework:springloaded:1.2.6.RELEASE')
 	}
 }
@@ -58,8 +58,15 @@ dependencies {
 	// spring dev tools
 	dev('org.springframework.boot:spring-boot-devtools')
 
+	// spring-data-cassandra
+	compile ('org.springframework.data:spring-data-cassandra:1.2.2.RELEASE')
+	
+	//spring thymeleaf
+	//compile ('org.springframework.boot:spring-boot-starter-thymeleaf')
+	
 	// testing
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	
 }
 
 def generatedWebResources = "${buildDir}/generated-web-resources"
