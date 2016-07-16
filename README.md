@@ -1,5 +1,12 @@
-[![Build Status](https://travis-ci.org/borysn/spring-boot-angular2.svg?branch=master)](https://travis-ci.org/borysn/spring-boot-angular2)
-[![Gitter](https://badges.gitter.im/borysn/spring-boot-angular2.svg)](https://gitter.im/borysn/spring-boot-angular2?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+# Special thanks to Travis CI GmbH
+
+# purpose learning spring-boot, spring-data with Cassandara (using restful service) by creating a prototype.
+
+# New changes, 
+- replaced mysql connector with Cassandra connector and configurations to learn one of big data databases
+- tutorial followed for that, https://dzone.com/articles/set-up-a-springdata-project-with-apache-cassandra
+
+# Core details from Travis about the project
 
 # upcoming changes 
 - first class npm support
